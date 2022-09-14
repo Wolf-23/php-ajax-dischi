@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #2E3A46;
+    height: 70px;
+    width: 100vw;
+}
+
+header img {
+    height: 100%;
+    padding: 10px;
+}
+
+main {
+    background-color: #1E2D3B;
+    height: calc(100vh - 70px);
+}
+
+.container  {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: calc(100% / 4 - 50px);
+    height: 350px;
+    background-color: #2E3A46;
+    margin: 25px;
+    text-align: center;
+    padding: 25px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.diskTitle {
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.diskAuthor, .diskYear {
+    padding-bottom: 5px;
+    color: gray;
+    font-weight: 100;
+}
+
