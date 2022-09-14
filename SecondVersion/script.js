@@ -6,7 +6,7 @@ var app = new Vue({
     mounted() {
         axios .get ('http://localhost/php-ajax-dischi/SecondVersion/script.php')
         .then(response => {
-            this.disks = response.data.response;
+            this.disks = response.data;
         })
     },
   });
